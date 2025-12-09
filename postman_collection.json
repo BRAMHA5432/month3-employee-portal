@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "Employee Portal - Sample",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Open Dashboard (requires login)",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8081/dashboard"
+        }
+      }
+    }
+  ]
+}
